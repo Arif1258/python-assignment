@@ -1,0 +1,11 @@
+# Get the number from the user
+num = int(input("Enter a number: "))
+
+# Calculate the difference from 15
+diff = abs(num - 15)
+
+# Check if the number is greater than 15
+if num > 15:
+    print("Two times of the difference is: ", diff * 2)
+else:
+    print("Four times of the difference is: ", diff * 4)
