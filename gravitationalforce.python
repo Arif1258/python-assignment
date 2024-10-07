@@ -1,0 +1,15 @@
+# Define the gravitational constant
+G = 6.674 * (10**-11)  # in m^3 kg^-1 s^-2
+
+# Get the masses of the two objects from the user
+m1 = float(input("Enter the mass of the first object (in kg): "))
+m2 = float(input("Enter the mass of the second object (in kg): "))
+
+# Get the distance between the two objects from the user
+d = float(input("Enter the distance between the two objects (in m): "))
+
+# Calculate the gravitational force using the formula G*(m1*m2)/d^2
+gravitational_force = G * (m1 * m2) / (d ** 2)
+
+# Print the result
+print("The gravitational force acting between the two objects is: ", gravitational_force, "N")
