@@ -1,0 +1,11 @@
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+# Print the original values
+print("Original values:")
+print("num1 =", num1)
+print("num2 =", num2)
+num1, num2 = num2, num1
+print("Swapped values:")
+print("num1 =", num1)
+print("num2 =", num2)
